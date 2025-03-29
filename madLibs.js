@@ -2,7 +2,7 @@
 let building_type = "residential building"
 let adverb = "stinky"
 let access_type = "Denied"
-let booleanValue = access_type.includes("afternoon")
+let booleanValue = access_type.includes("Granted")
 let numberOne = 5
 let numberTwo = 7
 let mathResults = numberOne/numberTwo
