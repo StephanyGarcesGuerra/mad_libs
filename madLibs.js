@@ -17,8 +17,9 @@ let person_object ={
 const story = `In a hidden ${building_type}, I stumbled upon a hidden robot factory. The ${adverb} machines were assembling gadgets endlessly. One robot, named Robo${person_object.name}, handed me a metallic keycard. It beeped and said, 'Access ${access_type}!' Did you know ${numberOne} ÷ ${numberTwo} equals ${mathResults}? Fascinating, right?`
 
 document.getElementById("madlibs-output").textContent = story;
-document.getElementById('boolean').textContent = boolean
+let boolean = document.getElementById('boolean').textContent
 
+document.body.append(boolean)
 
 console.log(story);
 console.log(booleanValue);
